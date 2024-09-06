@@ -18,8 +18,8 @@ Resources:
       Tags:
         - Key: Environment
           Value: !Ref Environment
-        - Key: Environment  # Corrected the key here
-          Value: GithubActionsTesting
+        - Key: Project
+          Value: GithubActionsTesting  # Changed the key to avoid duplication
 
 Outputs:
   BucketName:
